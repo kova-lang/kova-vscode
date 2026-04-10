@@ -1,6 +1,6 @@
 # Kova Language Support
 
-<p align="center">
+<p align="start">
   <img src="./assets/logo.png" alt="Kova Logo" width="140" />
 </p>
 
