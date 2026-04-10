@@ -3,7 +3,7 @@
   "patterns": [
     {
       "name": "keyword.control.kova",
-      "match": "\\b(let|if|else|respond|import|from|connect|using)\\b"
+      "match": "\\b(let|if|else|print|for|while|respond|import|from|connect|using)\\b"
     },
     {
       "name": "constant.numeric.kova",
