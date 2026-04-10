@@ -76,7 +76,3 @@ Source code nad issue tracking are available in the project repository.
 ## License
 MIT
 
-### Commit
-```bash
-git add README.md
-git commit -m "docs(readme): improve marketplace presentation and installation guide"
