@@ -1,0 +1,51 @@
+{
+  "name": "kova-vscode",
+  "displayName": "Kova Language Support",
+  "description": "VS Code language support for Kova",
+  "version": "0.0.1",
+  "publisher": "kova-lang",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:kova"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "kova",
+        "aliases": ["Kova", "kova"],
+        "extensions": [".kova"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "kova",
+        "scopeName": "source.kova",
+        "path": "./syntaxes/kova.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "kova",
+        "path": "./snippets/kova.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kova-lang/kova-vscode.git"
+  },
+  "keywords": [
+    "kova",
+    "vscode",
+    "language",
+    "dsl"
+  ]
+}
