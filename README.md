@@ -1,7 +1,7 @@
 # Kova Language Support
 
 <p align="center">
-  <img src="assets/logo.png" alt="Kova Logo" width="140" />
+  <img src="./assets/logo.png" alt="Kova Logo" width="140" />
 </p>
 
 Kova Language Support brings first-class Visual Studio Code support for the Kova language.
