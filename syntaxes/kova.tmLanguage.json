@@ -1,4 +1,3 @@
-
 {
   "scopeName": "source.kova",
   "patterns": [
@@ -17,7 +16,19 @@
     },
     {
       "name": "keyword.control.kova",
-      "match": "\\b(let|if|else|for|while|respond|import|from|connect|using)\\b"
+      "match": "\\b(if|else|for|while)\\b"
+    },
+    {
+      "name": "storage.type.kova",
+      "match": "\\b(let,fn)\\b"
+    },
+    {
+      "name": "keyword.control.import.kova",
+      "match": "\\b(import|export|from)\\b"
+    },
+    {
+      "name": "keyword.other.kova",
+      "match": "\\b(connect|using|respond)\\b"
     },
     {
       "name": "entity.name.function.kova",
