@@ -1,13 +1,10 @@
+
 {
   "scopeName": "source.kova",
   "patterns": [
     {
-      "name": "keyword.control.kova",
-      "match": "\\b(let|if|else|print|for|while|respond|import|from|connect|using)\\b"
-    },
-    {
-      "name": "constant.numeric.kova",
-      "match": "\\b\\d+(\\.\\d+)?\\b"
+      "name": "comment.line.double-slash.kova",
+      "match": "//.*$"
     },
     {
       "name": "string.quoted.double.kova",
@@ -15,8 +12,28 @@
       "end": "\""
     },
     {
-      "name": "comment.line.double-slash.kova",
-      "match": "//.*$"
+      "name": "constant.numeric.kova",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "keyword.control.kova",
+      "match": "\\b(let|if|else|for|while|respond|import|from|connect|using)\\b"
+    },
+    {
+      "name": "entity.name.function.kova",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*(?=\\()"
+    },
+    {
+      "name": "variable.other.object.key.kova",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*(?=:)"
+    },
+    {
+      "name": "variable.other.kova",
+      "match": "(?<=\\blet\\s)([a-zA-Z_][a-zA-Z0-9_]*)"
+    },
+    {
+      "name": "variable.other.readwrite.kova",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
     }
   ]
 }
