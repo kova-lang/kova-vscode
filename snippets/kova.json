@@ -1,0 +1,17 @@
+{
+  "let": {
+    "prefix": "let",
+    "body": ["let ${1:name} = ${2:value}"],
+    "description": "Declare a variable"
+  },
+  "if": {
+    "prefix": "if",
+    "body": ["if (${1:condition}) {", "\t${2}", "}"],
+    "description": "If statement"
+  },
+  "respond": {
+    "prefix": "respond",
+    "body": ["respond ${1:value}"],
+    "description": "Respond from Kova"
+  }
+}

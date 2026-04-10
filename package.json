@@ -19,8 +19,13 @@
     "languages": [
       {
         "id": "kova",
-        "aliases": ["Kova", "kova"],
-        "extensions": [".kova"],
+        "aliases": [
+          "Kova",
+          "kova"
+        ],
+        "extensions": [
+          ".kova"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -47,5 +52,8 @@
     "vscode",
     "language",
     "dsl"
-  ]
+  ],
+  "dependencies": {
+    "vscode": "^1.1.37"
+  }
 }

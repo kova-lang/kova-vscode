@@ -1,0 +1,22 @@
+{
+  "scopeName": "source.kova",
+  "patterns": [
+    {
+      "name": "keyword.control.kova",
+      "match": "\\b(let|if|else|respond|import|from|connect|using)\\b"
+    },
+    {
+      "name": "constant.numeric.kova",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.kova",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "comment.line.double-slash.kova",
+      "match": "//.*$"
+    }
+  ]
+}
