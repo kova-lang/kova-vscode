@@ -61,5 +61,10 @@
         "vscode",
         "language",
         "dsl"
-    ]
+    ],
+    "icon": "assets/icon.png",
+    "galleryBanner": {
+        "color": "#0B1220",
+        "theme": "dark"
+    }
 }
