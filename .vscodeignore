@@ -1,0 +1,7 @@
+.vscode/
+.vscode-test/
+src/
+node_modules/typescript/
+node_modules/@types/
+.gitignore
+tsconfig.json
