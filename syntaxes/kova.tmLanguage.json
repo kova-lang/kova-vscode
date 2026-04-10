@@ -19,16 +19,12 @@
       "match": "\\b(if|else|for|while)\\b"
     },
     {
-      "name": "storage.type.kova",
-      "match": "\\b(let,fn)\\b"
-    },
-    {
       "name": "keyword.control.import.kova",
-      "match": "\\b(import|export|from)\\b"
+      "match": "\\b(import|export|from|into)\\b"
     },
     {
       "name": "keyword.other.kova",
-      "match": "\\b(connect|using|respond)\\b"
+      "match": "\\b(connect|using|respond|fn|let|insert)\\b"
     },
     {
       "name": "entity.name.function.kova",
