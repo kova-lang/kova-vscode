@@ -17,7 +17,8 @@
     "main": "./out/extension.js",
     "scripts": {
         "compile": "tsc -p ./",
-        "watch": "tsc -w -p ./"
+        "watch": "tsc -w -p ./",
+        "vscode:prepublish": "npm run compile"
     },
     "devDependencies": {
         "@types/node": "^25.6.0",
