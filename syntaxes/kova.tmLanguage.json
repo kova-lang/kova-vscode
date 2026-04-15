@@ -24,7 +24,7 @@
     },
     {
       "name": "keyword.other.kova",
-      "match": "\\b(connect|using|respond|fn|let|insert|true|false)\\b"
+      "match": "\\b(connect|using|respond|fn|let|insert|true|false|null)\\b"
     },
     {
       "name": "entity.name.function.kova",
